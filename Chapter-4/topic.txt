@@ -1,0 +1,28 @@
+Loop control instructions:
+1. for loop
+2. while loop
+3. do-while loop
+break
+continue
+
+for(initialisation; condition; updation){
+    // do something
+}
+
+initialisation = start kaise karna hai
+condition = khatam kab karna hai
+
+
+// if condition false hai to terminate hojayega loop
+// declaration
+while(condition){
+    // do something
+    // updation
+}
+
+
+// atleats it will run one time
+// condition pehle check nhi hoti pehle kam hota h
+do{
+    // do something
+}while(condition);

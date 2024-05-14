@@ -1,0 +1,39 @@
+Arrays: is a pointer
+
+int marks[3];
+char name[10];
+float price[2];
+
+
+0 based indexing
+
+array input:
+scanf("%d", &marks[0]);
+
+array output:
+printf("%d", marks[0]);
+
+Initialization of Array:
+
+int marks[] = {97, 98, 89};
+int marks[3] = {97, 98, 89};
+
+Array as func args:
+
+// function declaration
+
+void printNumbers(int arr[], int n)
+            OR
+void printNumbers(int *arr, int n)
+
+// function call
+printNumbers(arr, n)
+
+
+2D array:
+
+int arr[][] = {1,2}. {3,4}; //Declare
+
+1D array:
+
+int arr[] = {1,2,3}

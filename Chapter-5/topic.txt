@@ -1,0 +1,2 @@
+1. Functions: printf and scanf func--Library func--inbuild func
+2. Recursions

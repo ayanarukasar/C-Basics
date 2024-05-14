@@ -1,0 +1,31 @@
+Strings: is also a pointer because string is array
+
+Initialising:
+
+char name[] = {'A','Y','A','N','A','\0'};
+char name[] = "AYANA";
+
+char className[] = {'A','P','N','A',' ','C','O','L','L','E','G','E','\0'};
+char className[] = "APNA COLLEGE";
+
+Format Specifier:
+char name[] = "AYANA";
+printf("%s", name);
+ 
+It will not take multi word input
+%s-- will add '\0' by default
+
+input:
+gets 
+fgets
+
+output:
+puts
+
+STRUCTURE:
+    char str[100];
+    // gets(fullName);
+    fgets(str, 50, stdin);
+    puts(str);
+
+

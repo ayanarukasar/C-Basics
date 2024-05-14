@@ -1,0 +1,15 @@
+Pointers:
+
+int age = 22;
+int *ptr = &age;
+int _age = *ptr;
+
+where * = value at address operator
+      & = address of operator
+
+Pointer to Pointer:
+
+int **pptr;
+char **pptr;
+float **pptr;
+

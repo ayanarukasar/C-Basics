@@ -1,0 +1,43 @@
+Structures: forms c++ basics
+1. Pointer to Array
+2. Pointer to Char
+3. Pointer to Strings
+4. Pointer to Structures
+
+
+Syntax: <User-defined data type>
+
+// define
+struct student{
+    char name[100];
+    int roll;
+    float age;
+};
+
+// use
+struct student s1;
+s1.name = 'aamir';
+
+struct struct
+{
+    /* data */
+};
+
+//initialisation and assignment together
+struct student s1 = {101, 8.9, "Ayana"};
+
+Structures Pointers
+
+int a;      struct student s1;
+int *ptr;   struct student *ptr
+ptr =  &a;  ptr = &s1; 
+
+Arrow Operator:
+
+(*ptr).code <------> ptr->code
+
+Passing Structures to Function:
+void printInfo(struct student s1);
+
+struct student--> is a datatype
+int == struct student
